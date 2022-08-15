@@ -62,7 +62,7 @@ if (data) {
 
         <LocationInfo  data = {data} />
 
-        <div className='w-[60%] flex mx-auto text-white  py-5 gap-4 justify-center flex-wrap '>
+        <div className='w-[90%] flex mx-auto text-white  py-5 gap-4 justify-center flex-wrap '>
           { data?.residents.slice((page - 1) * perpage, (page -1) * perpage + perpage).map(url => (
             <CardResident key={url}
                           url={url} />
