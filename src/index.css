@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #05292E;
+}
+
+.font_ram{
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+.mbot{
+    margin-bottom: 10px;
+}
