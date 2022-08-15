@@ -9,7 +9,7 @@ const CardResident = ({url}) => {
   return ( 
      
    
-    <div className=' w-[300px] bg-blue-400 rounded-xl  overflow-hidden'>
+    <div className=' w-[300px] bg-slate-900 rounded-xl  overflow-hidden'>
        <div className='w-full bg-black relative'>
           <img  className='w-full' src={resident?.image} alt={resident?.name} />
         
