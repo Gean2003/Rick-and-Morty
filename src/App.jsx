@@ -49,9 +49,9 @@ if (data) {
 
   return (
     <div className="App">
-      <div className='sm:w-full sm:h-[400px] sm:bg-hero-pattern sm:bg-cover sm:bg-no-repeat sm:bg-center' > </div>
-        <h1 className='font_ram font-bold text-5xl text-center my-8 text-white '>Rick and Morty Wiki</h1>
-        <div className='text-center max-w-5xl mx-auto'>
+      <div className='sm:w-full sm:h-[400px] sm:bg-hero-pattern sm:bg-cover sm:bg-no-repeat sm:bg-center ' > </div>
+        <h1 className='my-8 text-5xl font-bold text-center text-white font_ram'>Rick and Morty Wiki</h1>
+        <div className='max-w-5xl mx-auto text-center'>
 
         <form onSubmit={searcher}>
           <input type="text" placeholder='Search' id='search' className='my-3 mx-2 w-[80%] py-2 rounded-[7px]'  />
@@ -62,7 +62,7 @@ if (data) {
 
         <LocationInfo  data = {data} />
 
-        <div className='w-[90%] flex mx-auto text-white  py-5 gap-4 justify-center flex-wrap '>
+        <div className='w-[90%] max-w-7xl flex mx-auto text-white  py-5 gap-4 justify-center flex-wrap '>
           { data?.residents.slice((page - 1) * perpage, (page -1) * perpage + perpage).map(url => (
             <CardResident key={url}
                           url={url} />
